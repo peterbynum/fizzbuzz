@@ -47,4 +47,7 @@ Buzz
 
 num = int(input("How many numbers shall we print? "))
 m1 = int(input("For multiples of what number shall we print 'Fizz'? "))
-m2 = int(input
+m2 = int(input("For multiples of what number shall we print 'Fizz'? "))
+
+for n in range (1, num):
+    if.
