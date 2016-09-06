@@ -1,9 +1,9 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Peter Bynum
+Credit: None
 
-Assignment:
+Assignment: FizzBuzz
 
 Write a program that prints the numbers from 1 to 100. But for 
 multiples of three print “Fizz” instead of the number and for 
@@ -44,3 +44,7 @@ Fizz
 Fizz
 Buzz
 """
+
+num = int(input("How many numbers shall we print? "))
+m1 = int(input("For multiples of what number shall we print 'Fizz'? "))
+m2 = int(input
