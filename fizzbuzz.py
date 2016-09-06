@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Peter Bynum
-Credit: None
+Credit: top answer in http://stackoverflow.com/questions/4432208/how-does-work-in-python
 
 Assignment: FizzBuzz
 
@@ -49,5 +49,14 @@ num = int(input("How many numbers shall we print? "))
 m1 = int(input("For multiples of what number shall we print 'Fizz'? "))
 m2 = int(input("For multiples of what number shall we print 'Fizz'? "))
 
-for n in range (1, num):
-    if.
+for n in range (1, num+1):
+    if n%(m1*m2)==0:
+        print("FizzBuzz")
+    elif n%m1==0:
+        print("Fizz")
+    elif n%m2==0:
+        print("Buzz")
+    else:
+        print(n)
+
+        
