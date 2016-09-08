@@ -50,7 +50,7 @@ m1 = int(input("For multiples of what number shall we print 'Fizz'? "))
 m2 = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for n in range (1, num+1):
-    if n%(m1*m2)==0:
+    if n%m1==0 and n%m2==0:
         print("FizzBuzz")
     elif n%m1==0:
         print("Fizz")
